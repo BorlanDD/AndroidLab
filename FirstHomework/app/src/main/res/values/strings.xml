@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Тестирование</string>
+    <string name="tv_welcome">Добро пожаловать\nв систему тестирования!</string>
+    <string name="btn_begin">Начать</string>
+    <string name="btn_answer">Ответить</string>
+    <string name="tv_answer_not_checked">Необходимо выбрать ответ!</string>
+
+    <!--Вопросы-->
+    <string-array name="array_questions">
+        <item>@string/question1</item>
+        <item>@string/question2</item>
+        <item>@string/question3</item>
+    </string-array>
+    <string name="question1">Сколько жен было у Соломона?</string>
+    <string name="question2">Сколько стоил фунт нардового масла?</string>
+    <string name="question3">Как переводится имя Петр?</string>
+
+    <!--Ответы на вопросы, верный ответ в начале списке-->
+    <string-array name="array_answers">
+        <item>@string/question1_answers</item>
+        <item>@string/question2_answers</item>
+        <item>@string/question3_answers</item>
+    </string-array>
+    <string name="question1_answers">700;600;500</string>
+    <string name="question2_answers">200 динариев;100 динариев;500 динариев</string>
+    <string name="question3_answers">Камень;Защитник;Кустарник</string>
+    <string name="btn_again">Начать заново</string>
+    <string name="tv_result">Результат:</string>
+    <string name="tv_test_ended">Тест завершен</string>
+</resources>
